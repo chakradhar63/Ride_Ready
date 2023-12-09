@@ -1,4 +1,5 @@
 const express = require('express')
+const cors = require("cors");
 const corsOptions = {
     origin:'http://localhost:3000',
     credentials: true,
@@ -7,7 +8,6 @@ const corsOptions = {
 const app = express()
 const port = process.env.PORT || 5000
 const dbConnection = require('./db')
-const cors = require("cors");
 app.use(express.json())
 
 app.use('/api/cars/' , require('./routes/carsRoute'))
