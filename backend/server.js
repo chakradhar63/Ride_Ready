@@ -1,5 +1,6 @@
 const express = require('express')
 const corsOptions = {
+    origin:'http://localhost:3000',
     credentials: true,
     optionSuccessStatus: 200
   }
@@ -17,12 +18,13 @@ app.use(cors({
     methods: '*',
     allowedHeaders: '*'
   }));
-  app.use((req, res, next) => {
+
+app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', '*');
     res.header('Access-Control-Allow-Headers', '*');
     next();
-  });
+});
 
 const path = require('path')
 
