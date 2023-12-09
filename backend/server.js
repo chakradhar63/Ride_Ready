@@ -1,4 +1,8 @@
 const express = require('express')
+const corsOptions = {
+    credentials: true,
+    optionSuccessStatus: 200
+  }
 const app = express()
 const port = process.env.PORT || 5000
 const dbConnection = require('./db')
