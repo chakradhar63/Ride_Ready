@@ -8,6 +8,7 @@ const corsOptions = {
 }
 
 const app = express();
+app.use(cors(corsOptions));
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 app.use(express.json());
@@ -22,9 +23,9 @@ app.use(cors({
   }));
 
 app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', '*');
-    res.header('Access-Control-Allow-Methods', '*');
-    res.header('Access-Control-Allow-Headers', '*');
+    res.header('Access-Control-Allow-Origin: *');
+    res.header('Access-Control-Allow-Methods: *');
+    res.header('Access-Control-Allow-Headers: *');
     next();
 });
 
