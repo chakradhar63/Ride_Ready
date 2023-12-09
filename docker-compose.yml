@@ -1,11 +1,11 @@
 version: '3'
 services:
   frontend:
-    image: frontend-image:latest
+    image: chakradhar63/frontend-image:latest
     ports:
       - '3000:3000'
   backend:
-    image: backend-image:latest
+    image: chakradhar63/backend-image:latest ./backend
     ports:
       - '5001:5000'
     environment:
