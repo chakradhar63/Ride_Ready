@@ -19,12 +19,12 @@ pipeline{
         }
         stage('Build Frontend Image') {
             steps {
-                sh 'docker build -t chakradhar63/frontend-image:latest ./frontend'
+                sh 'docker build -t frontend-image ./frontend'
             }
         }
          stage('Build Backend Image') {
             steps {
-                sh 'docker build -t chakradhar63/backend-image:latest ./backend'
+                sh 'docker build -t backend-image ./backend'
             }
         }
         stage('Push Images to DockerHub') {
@@ -32,9 +32,9 @@ pipeline{
 
                 withCredentials([usernamePassword(credentialsId: 'DockerHubCred', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
                     sh 'docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD'
-                    // sh 'docker tag frontend-image chakradhar63/frontend-image:latest'
+                    sh 'docker tag frontend-image chakradhar63/frontend-image:latest'
                     sh 'docker push chakradhar63/frontend-image:latest'
-                    // sh 'docker tag backend-image chakradhar63/backend-image:latest'
+                    sh 'docker tag backend-image chakradhar63/backend-image:latest'
                     sh 'docker push chakradhar63/backend-image:latest'
                 }          
             }
