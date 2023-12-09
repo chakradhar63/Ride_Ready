@@ -15,8 +15,8 @@ app.use('/api/users/' , require('./routes/usersRoute'))
 app.use('/api/bookings/' , require('./routes/bookingsRoute'))
 app.use(cors({
     origin: '*',
-    methods: '*',
-    allowedHeaders: '*'
+    methods: '*',   
+    allowedHeaders: ['Content-Type', 'Authorization']
   }));
 
 app.use((req, res, next) => {
