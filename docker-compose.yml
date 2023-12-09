@@ -4,7 +4,7 @@ services:
     image: frontend-image:latest
     ports:
       - '3000:3000'
-  environment:
+    environment:
       - REACT_APP_BASE_URL=http://localhost:5000
   backend:
     image: backend-image:latest
