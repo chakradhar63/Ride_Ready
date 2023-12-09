@@ -4,7 +4,7 @@ export const bookCar = (reqObj) => async (dispatch) => {
   dispatch({ type: "LOADING", payload: true });
 
   try {
-     await axios.post("/api/bookings/bookcar" , reqObj);
+     await axios.post(process.env.REACT_APP_BASE_URL + "/api/bookings/bookcar" , reqObj);
 
     dispatch({ type: "LOADING", payload: false });
     message.success("Your car booked successfully");
