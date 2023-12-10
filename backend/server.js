@@ -13,8 +13,9 @@ app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 app.use(express.json());
 require("dotenv").config();
+const logger =  require('./logger/logging.js');
 const port = process.env.PORT || 5000
-const dbConnection = require('./db')
+const dbConnection = require('./db.js')
 
 app.use(cors({
     origin: '*',
@@ -29,23 +30,23 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use('/api/cars/' , require('./routes/carsRoute'))
-app.use('/api/users/' , require('./routes/usersRoute'))
-app.use('/api/bookings/' , require('./routes/bookingsRoute'))
+app.use('/api/cars/' , require('./routes/carsRoute.js'))
+app.use('/api/users/' , require('./routes/usersRoute.js'))
+app.use('/api/bookings/' , require('./routes/bookingsRoute.js'))
+
+app.get('/', (req, res) => {
+    logger.info('Transaction Home OK');
+    res.send("hello it/s running")
+})
 
 const path = require('path')
 
 if(process.env.NODE_ENV==='production')
 {
-
     app.use('/' , express.static('client/build'))
-
     app.get('*' , (req , res)=>{
-
           res.sendFile(path.resolve(__dirname, 'client/build/index.html'));
-
     })
-
 }
 
 app.get('/', (req, res) => res.send('Hello World!'))
