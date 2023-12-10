@@ -1,20 +1,20 @@
 version: '3'
 services:
-  # container_front:
-  #   image: frontend-image
-  #   ports:
-  #     - "3000:3000"
-  #   networks:
-  #     - mynetwork
-  #   depends_on:
-  #     - container_back
-  #   healthcheck:
-  #     test: [ "CMD", "curl", "-f", "http://container_back:5000" ]
-  #     interval: 5s
-  #     timeout: 10s
-  #     retries: 5
-  #   environment:
-  #     - REACT_APP_BASE_URL=http://localhost:5000
+  container_front:
+    image: frontend-image
+    ports:
+      - "3000:3000"
+    networks:
+      - mynetwork
+    depends_on:
+      - container_back
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://container_back:5000" ]
+      interval: 5s
+      timeout: 10s
+      retries: 5
+    environment:
+      - REACT_APP_BASE_URL=http://localhost:5000
 
   container_back:
     image: backend-image
