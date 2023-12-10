@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 function connectDB(){
 
-    mongoose.connect('mongodb+srv://chakrivanarasi:123@cluster0.vbhdsq1.mongodb.net/' , {useUnifiedTopology: true , useNewUrlParser: true})
+    mongoose.connect('mongodb://localhost:27017' , {useUnifiedTopology: true , useNewUrlParser: true})
 
     const connection = mongoose.connection
 
