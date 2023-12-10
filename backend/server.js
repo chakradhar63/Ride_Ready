@@ -34,11 +34,6 @@ app.use('/api/cars/' , require('./routes/carsRoute.js'))
 app.use('/api/users/' , require('./routes/usersRoute.js'))
 app.use('/api/bookings/' , require('./routes/bookingsRoute.js'))
 
-app.get('/', (req, res) => {
-    logger.info('Transaction Home OK');
-    res.send("hello it/s running")
-})
-
 const path = require('path')
 
 if(process.env.NODE_ENV==='production')
