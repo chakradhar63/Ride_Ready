@@ -20,7 +20,6 @@ router.get("/getallcars", async (req, res) => {
 router.post("/addcar", async (req, res) => {
   try {
     const newcar = new Car(req.body);
-    console.log(newcar)
     await newcar.save();
     logger.info("[Success] Car Added Successfully: The new car '" + newcar.name + "' has been successfully added to the inventory. Id: " + newcar._id.toString())
     if(newcar.capacity > 15) logger.warn("[Warning] Check the information correctly once again.")
