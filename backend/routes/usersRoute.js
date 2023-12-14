@@ -17,7 +17,7 @@ router.post("/login", async (req, res) => {
             return res.status(400).json(error);
         }
     } catch (error) {
-        logger.info("[Failure] Login Failure. Please try again later.");
+        logger.error("[Failure] Login Failure. Please try again later.");
         return res.status(400).json(error);
     }
 });
