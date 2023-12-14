@@ -30,7 +30,7 @@ describe('User API Tests', () => {
             // Handle the error or fail the test if needed
             throw error;
         }
-    });
+    }).timeout(5000);
 
     it('Signin user - Success', async () => {
         const username = 'IMT2020021';

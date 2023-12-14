@@ -19,3 +19,9 @@
 [2023-12-14 09:14:05.609] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
 [2023-12-14 09:14:15.780] [info] [Success] Login Success: User 'chakri' has successfully logged in.
 [2023-12-14 09:14:16.451] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:10:11.239] [error] [Failure] Login Failure: Incorrect username or password.
+[2023-12-14 18:10:11.242] [error] [Failure] Login Failure. Please try again later.
+[2023-12-14 18:10:11.326] [error] [Success] Login Success: User 'IMT2020021' has successfully logged in.
+[2023-12-14 18:11:24.766] [error] [Failure] Login Failure: Incorrect username or password.
+[2023-12-14 18:11:24.770] [error] [Failure] Login Failure. Please try again later.
+[2023-12-14 18:11:24.848] [error] [Success] Login Success: User 'IMT2020021' has successfully logged in.
