@@ -15,7 +15,7 @@ pipeline{
                 dir('frontend'){
                     sh "npm install"
                 }
-                dir('frontend'){
+                dir('backend'){
                     sh "npm install"
                     sh "npm test"
                 }
