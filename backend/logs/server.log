@@ -7,3 +7,15 @@
 [2023-12-12 10:28:25.912] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
 [2023-12-12 10:28:32.883] [info] [Success] Car Details Updated Successfully: The information for the selected car 'Audi A7' has been successfully updated. Id: 6577e871b91c5a34c953a66e
 [2023-12-12 10:28:33.547] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 09:09:43.140] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 09:09:47.366] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 09:09:52.100] [info] [Success] Get All Bookings Success: All car bookings have been successfully retrieved.
+[2023-12-14 09:09:57.786] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 09:10:05.449] [info] [Success] Car Details Updated Successfully: The information for the selected car 'SKODA Kamiq' has been successfully updated. Id: 6578a183dd92cc029a3cd033
+[2023-12-14 09:10:06.111] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 09:13:34.915] [error] [Failure] Login Failure: Incorrect username or password.
+[2023-12-14 09:13:34.917] [error] [Failure] Login Failure. Please try again later.
+[2023-12-14 09:13:34.986] [error] [Success] Login Success: User 'IMT2020021' has successfully logged in.
+[2023-12-14 09:14:05.609] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 09:14:15.780] [info] [Success] Login Success: User 'chakri' has successfully logged in.
+[2023-12-14 09:14:16.451] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
