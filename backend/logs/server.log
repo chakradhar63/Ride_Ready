@@ -15,16 +15,93 @@
 [2023-12-14 09:10:06.111] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
 [2023-12-14 09:13:34.915] [error] [Failure] Login Failure: Incorrect username or password.
 [2023-12-14 09:13:34.917] [error] [Failure] Login Failure. Please try again later.
-[2023-12-14 09:13:34.986] [error] [Success] Login Success: User 'IMT2020021' has successfully logged in.
+[2023-12-14 09:13:34.986] [info] [Success] Login Success: User 'IMT2020021' has successfully logged in.
 [2023-12-14 09:14:05.609] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
 [2023-12-14 09:14:15.780] [info] [Success] Login Success: User 'chakri' has successfully logged in.
 [2023-12-14 09:14:16.451] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
 [2023-12-14 18:10:11.239] [error] [Failure] Login Failure: Incorrect username or password.
 [2023-12-14 18:10:11.242] [error] [Failure] Login Failure. Please try again later.
-[2023-12-14 18:10:11.326] [error] [Success] Login Success: User 'IMT2020021' has successfully logged in.
+[2023-12-14 18:10:11.326] [info] [Success] Login Success: User 'IMT2020021' has successfully logged in.
 [2023-12-14 18:11:24.766] [error] [Failure] Login Failure: Incorrect username or password.
 [2023-12-14 18:11:24.770] [error] [Failure] Login Failure. Please try again later.
-[2023-12-14 18:11:24.848] [error] [Success] Login Success: User 'IMT2020021' has successfully logged in.
+[2023-12-14 18:11:24.848] [info] [Success] Login Success: User 'IMT2020021' has successfully logged in.
 [2023-12-14 18:15:24.748] [error] [Failure] Login Failure: Incorrect username or password.
 [2023-12-14 18:15:24.752] [error] [Failure] Login Failure. Please try again later.
-[2023-12-14 18:15:24.840] [error] [Success] Login Success: User 'IMT2020021' has successfully logged in.
+[2023-12-14 18:15:24.840] [info] [Success] Login Success: User 'IMT2020021' has successfully logged in.
+[2023-12-14 18:22:18.174] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:22:36.719] [info] [Success] Login Success: User 'chakri' has successfully logged in.
+[2023-12-14 18:22:37.383] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:23:23.175] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:23:36.487] [error] [Failure] Failed to List Cars: Unable to retrieve the list of available cars for rent.
+[2023-12-14 18:23:40.710] [error] [Failure] Failed to List Cars: Unable to retrieve the list of available cars for rent.
+[2023-12-14 18:24:05.618] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:24:37.388] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:25:21.630] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:25:21.736] [error] [Failure] Failed to List Cars: Unable to retrieve the list of available cars for rent.
+[2023-12-14 18:28:17.546] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:32:37.526] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:32:37.627] [info] [Success] There are 8 cars available for booking.
+[2023-12-14 18:36:53.633] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:36:53.718] [info] [Success] There are 8 cars available for booking.
+[2023-12-14 18:36:57.552] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:36:57.627] [info] [Success] There are 8 cars available for booking.
+[2023-12-14 18:37:18.728] [info] [Success] Car Added Successfully: The new car 'Range Rover' has been successfully added to the inventory. Id: 657afe06eec50cbc4c48c539
+[2023-12-14 18:37:19.427] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:37:19.501] [info] [Success] There are 9 cars available for booking.
+[2023-12-14 18:41:17.510] [info] [Success] Car Details Updated Successfully: The information for the selected car 'Range Rover' has been successfully updated. Id: 657afe06eec50cbc4c48c539
+[2023-12-14 18:41:17.514] [warn] [Warning] Check the information correctly once again.
+[2023-12-14 18:41:18.201] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:41:18.295] [info] [Success] There are 9 cars available for booking.
+[2023-12-14 18:42:10.665] [info] [Success] Car Details Updated Successfully: The information for the selected car 'Range Rover' has been successfully updated. Id: 657afe06eec50cbc4c48c539
+[2023-12-14 18:42:10.665] [warn] [Warning] Check the information correctly once again.
+[2023-12-14 18:42:10.666] [warn] [Warning] Check the information correctly once again.
+[2023-12-14 18:42:11.378] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:42:11.465] [info] [Success] There are 9 cars available for booking.
+[2023-12-14 18:42:20.576] [info] [Success] Car Deleted Successfully: The selected car has been successfully removed from the inventory. Id: 657aff346c45ef55f5aab1a5
+[2023-12-14 18:42:21.305] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:42:21.381] [info] [Success] There are 8 cars available for booking.
+[2023-12-14 18:43:52.173] [error] [Failure] Car Details Update Failed: Unable to update the information for the selected car. Please verify the details and try again.
+[2023-12-14 18:43:54.391] [error] [Failure] Car Details Update Failed: Unable to update the information for the selected car. Please verify the details and try again.
+[2023-12-14 18:44:03.228] [error] [Failure] Car Details Update Failed: Unable to update the information for the selected car. Please verify the details and try again.
+[2023-12-14 18:45:20.706] [info] [Success] Car Details Updated Successfully: The information for the selected car 'Swift Dzire' has been successfully updated. Id: 65789a38dd92cc029a3ccffb
+[2023-12-14 18:45:20.709] [error] [Failure] Car Details Update Failed: Unable to update the information for the selected car. Please verify the details and try again.
+[2023-12-14 18:45:40.691] [info] [Success] Car Details Updated Successfully: The information for the selected car 'Swift Dzire' has been successfully updated. Id: 65789a38dd92cc029a3ccffb
+[2023-12-14 18:45:40.692] [error] [Failure] Car Details Update Failed: Unable to update the information for the selected car. Please verify the details and try again.
+[2023-12-14 18:45:47.386] [info] [Success] Car Details Updated Successfully: The information for the selected car 'Swift Dzire' has been successfully updated. Id: 65789a38dd92cc029a3ccffb
+[2023-12-14 18:45:47.387] [error] [Failure] Car Details Update Failed: Unable to update the information for the selected car. Please verify the details and try again.
+[2023-12-14 18:45:49.943] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:45:50.009] [info] [Success] There are 8 cars available for booking.
+[2023-12-14 18:47:32.397] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:47:32.482] [info] [Success] There are 8 cars available for booking.
+[2023-12-14 18:47:37.535] [info] [Success] Get All Bookings Success: All car bookings have been successfully retrieved.
+[2023-12-14 18:47:40.626] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:47:40.698] [info] [Success] There are 8 cars available for booking.
+[2023-12-14 18:47:47.869] [info] [Success] Car Details Updated Successfully: The information for the selected car 'Range Rover Velar HSE Dynamic' has been successfully updated. Id: 65789d88dd92cc029a3cd019
+[2023-12-14 18:47:47.869] [warn] [Warning] Check the information correctly once again.
+[2023-12-14 18:47:48.576] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:47:48.651] [info] [Success] There are 8 cars available for booking.
+[2023-12-14 18:48:37.654] [info] [Success] Car Details Updated Successfully: The information for the selected car 'Range Rover Velar HSE Dynamic' has been successfully updated. Id: 65789d88dd92cc029a3cd019
+[2023-12-14 18:48:37.655] [warn] [Warning] Check the information correctly once again.
+[2023-12-14 18:48:38.385] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:48:38.469] [info] [Success] There are 8 cars available for booking.
+[2023-12-14 18:48:48.410] [info] [Success] Car Details Updated Successfully: The information for the selected car 'Audi A7' has been successfully updated. Id: 6577e871b91c5a34c953a66e
+[2023-12-14 18:48:48.410] [warn] [Warning] Check the information correctly once again.
+[2023-12-14 18:48:48.411] [error] [Failure] Car Details Update Failed: Unable to update the information for the selected car. Please verify the details and try again.
+[2023-12-14 18:48:50.890] [info] [Success] Car Details Updated Successfully: The information for the selected car 'Audi A7' has been successfully updated. Id: 6577e871b91c5a34c953a66e
+[2023-12-14 18:48:50.891] [warn] [Warning] Check the information correctly once again.
+[2023-12-14 18:48:50.891] [error] [Failure] Car Details Update Failed: Unable to update the information for the selected car. Please verify the details and try again.
+[2023-12-14 18:49:06.465] [info] [Success] Car Details Updated Successfully: The information for the selected car 'Audi A7' has been successfully updated. Id: 6577e871b91c5a34c953a66e
+[2023-12-14 18:49:06.465] [error] [Failure] Car Details Update Failed: Unable to update the information for the selected car. Please verify the details and try again.
+[2023-12-14 18:49:15.147] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:49:15.227] [info] [Success] There are 8 cars available for booking.
+[2023-12-14 18:49:26.396] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:49:26.467] [info] [Success] There are 8 cars available for booking.
+[2023-12-14 18:49:39.175] [info] [Success] Registration Success: User 'vishal' has been successfully registered. Id: 657b00ebd150fda631b1529b
+[2023-12-14 18:49:45.618] [error] [Failure] Login Failure: Incorrect username or password.
+[2023-12-14 18:49:45.619] [error] [Failure] Login Failure. Please try again later.
+[2023-12-14 18:52:14.585] [info] [Success] Login Success: User 'vishal' has successfully logged in.
+[2023-12-14 18:52:15.314] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:52:15.465] [info] [Success] There are 8 cars available for booking.
+[2023-12-14 18:52:19.862] [info] [Success] Get All Bookings Success: All car bookings have been successfully retrieved.
+[2023-12-14 18:52:30.766] [info] [Success] List Cars Success: All available cars for rent displayed on the page.
+[2023-12-14 18:52:30.902] [info] [Success] There are 8 cars available for booking.

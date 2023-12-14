@@ -13,7 +13,7 @@ router.post("/login", async (req, res) => {
             res.send(user)
         }
         else {
-            logger.info("[Failure] Login Failure: Incorrect username or password.");
+            logger.error("[Failure] Login Failure: Incorrect username or password.");
             return res.status(400).json(error);
         }
     } catch (error) {
@@ -29,7 +29,7 @@ router.post("/register", async (req, res) => {
         logger.info("[Success] Registration Success: User '" + newuser.username + "' has been successfully registered. Id: " + newuser._id.toString());
         res.send('User registered successfully')
     } catch (error) {
-        logger.info("[Failure] Registration Failure: An unexpected error occurred during registration. Please try again later.");
+        logger.error("[Failure] Registration Failure: An unexpected error occurred during registration. Please try again later.");
         return res.status(400).json(error);
     }
 });

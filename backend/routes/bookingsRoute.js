@@ -45,7 +45,7 @@ router.post("/bookcar", async (req, res) => {
       return res.status(400).json(error);
     }
   } catch (error) {
-    logger.info("Booking Failed: Unable to process your reservation. Please check your details and try again.")
+    logger.error("Booking Failed: Unable to process your reservation. Please check your details and try again.")
     console.log(error);
     return res.status(400).json(error);
   }
@@ -58,7 +58,7 @@ router.get("/getallbookings", async (req, res) => {
     res.send(bookings)
 
   } catch (error) {
-    logger.info("[Failure] Get All Bookings Failed: Unable to retrieve car bookings. Please try again later.")
+    logger.error("[Failure] Get All Bookings Failed: Unable to retrieve car bookings. Please try again later.")
     return res.status(400).json(error);
   }
 });

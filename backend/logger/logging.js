@@ -7,8 +7,8 @@ const myFormat = printf(({ level, message, timestamp }) => {
 
     // Apply colorization only for console logs
     const logMessage = consoleLog
-        ? `[${timestamp}] [info] ${message}`
-        : `[${timestamp}] [error] ${message}`;
+        ? `[${timestamp}] [${level}] ${message}`
+        : `[${timestamp}] [${level}] ${message}`;
 
     return logMessage;
 });
