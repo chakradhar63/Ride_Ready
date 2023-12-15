@@ -40,10 +40,10 @@ describe("Login Component", () => {
 
     // User enters username and password
     fireEvent.change(screen.getByPlaceholderText(/username/i), {
-      target: { value: "test@example.com" },
+      target: { value: "IMT2020201" },
     });
     fireEvent.change(screen.getByPlaceholderText(/password/i), {
-      target: { value: "password123" },
+      target: { value: "1234" },
     });
 
     // Click the login button
@@ -53,7 +53,7 @@ describe("Login Component", () => {
     await waitFor(() => {
       expect(axios.post).toHaveBeenCalledWith(
         process.env.REACT_APP_BASE_URL + "/api/users/login",
-        { username: "test@example.com", password: "password123" }
+        { username: "IMT2020021", password: "1234" }
       );
     });
   });
