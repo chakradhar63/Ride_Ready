@@ -131,8 +131,3 @@
 [2023-12-14 23:13:19.411] [error] [Failure] Login Failure: Incorrect username or password.
 [2023-12-14 23:13:19.412] [error] [Failure] Login Failure. Please try again later.
 [2023-12-14 23:13:19.493] [info] [Success] Login Success: User 'IMT2020021' has successfully logged in.
-[2023-12-15 10:49:48.119] [[32minfo[39m] [Success] List Cars Success: All available cars for rent displayed on the page.
-[2023-12-15 10:49:48.235] [[32minfo[39m] [Success] There are 8 cars available for booking.
-[2023-12-15 10:49:55.223] [[32minfo[39m] [Success] Login Success: User 'IMT2020021' has successfully logged in.
-[2023-12-15 10:49:55.949] [[32minfo[39m] [Success] List Cars Success: All available cars for rent displayed on the page.
-[2023-12-15 10:49:56.042] [[32minfo[39m] [Success] There are 8 cars available for booking.
