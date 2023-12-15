@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-configmap
+  namespace: ride-ready-app
+data:
+  REACT_APP_BASE_URL: backend-service
