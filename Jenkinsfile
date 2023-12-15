@@ -14,9 +14,11 @@ pipeline{
             steps{
                 dir('frontend'){
                     sh "npm install"
+                    // sh "npm test"
                 }
                 dir('backend'){
                     sh "npm install"
+                    // sh "npm test"
                 }
             }
         }
